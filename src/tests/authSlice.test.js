@@ -26,7 +26,6 @@ describe('authSlice reducer', () => {
   });
 
   it('should return initial state when given unknown action', () => {
-    expect(true).toBe(false); // Sengaja dibuat gagal untuk simulasi 1_ci_check_error
     expect(authReducer(undefined, { type: '@@INIT' })).toEqual(initialState);
   });
 
